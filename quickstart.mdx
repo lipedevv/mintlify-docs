@@ -3,45 +3,133 @@ title: "Quickstart"
 description: "Begin with a guide on the fastest path to a successful outcome"
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
-
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+This guide walks you through your first authenticated request to Nexora. You will create a workspace and list its resources using real request and response examples. By the end, you will have a working integration pattern you can reuse for any endpoint.
 
 ## Prerequisites
 
-Before you begin, you must have:
-
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
-
-## Get started
+- A Nexora account. If you do not have one yet, sign up at [app.nexora.io](https://app.nexora.io).
+- An API key from the Nexora Dashboard. Go to **Settings \> API Keys**, then click **Generate Key**.
+- An HTTP client such as `curl`, or a scripting environment with `fetch` or `requests`.
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
+  <Step title="Install an HTTP client or use curl">
+    You can follow this guide with `curl`, Node.js, or Python. Choose whichever fits your stack.
+
+    <CodeGroup>
 
     ```bash
-    npm install your-package
+    # curl is available on most systems
+    curl --version
     ```
+
+    ```bash
+    # Node.js (for fetch examples)
+    node --version
+    ```
+
+    ```bash
+    # Python (for requests examples)
+    python --version
+    ```
+
+    </CodeGroup>
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
+  <Step title="Get your API key from the Dashboard">
+    Log in to [app.nexora.io](https://app.nexora.io) and navigate to **Settings \> API Keys**. Click **Generate Key**, copy the token, and store it securely. Nexora expects this token in the `Authorization: Bearer <token>` header on every request.
 
-    ```bash
-    your-cli init
-    ```
+    <Tip>
+      Treat your API key like a password. Do not commit it to version control. Use environment variables in production.
+    </Tip>
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
+  <Step title="Create your first workspace">
+    Send a `POST` request to `/workspaces` with a name for your workspace.
+
+    <CodeGroup>
+
+    ```bash curl
+    curl -X POST https://api.nexora.io/v1/workspaces \
+      -H "Authorization: Bearer $NEXORA_API_KEY" \
+      -H "Content-Type: application/json" \
+      -d '{"name": "Acme Production"}'
+    ```
+
+    ```js JavaScript
+    const response = await fetch("https://api.nexora.io/v1/workspaces", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer " + process.env.NEXORA_API_KEY,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ name: "Acme Production" }),
+    });
+    const data = await response.json();
+    console.log(data);
+    ```
+
+    ```python Python
+    import requests, os
+    
+    resp = requests.post(
+      "https://api.nexora.io/v1/workspaces",
+      headers={
+        "Authorization": f"Bearer {os.environ['NEXORA_API_KEY']}",
+        "Content-Type": "application/json",
+      },
+      json={"name": "Acme Production"},
+    )
+    print(resp.json())
+    ```
+
+    </CodeGroup>
+
+    You should receive a response like this:
+
+    ```json
+    {
+      "id": "ws_2vPqN9mK3Lx8",
+      "name": "Acme Production",
+      "created_at": "2024-01-15T09:23:11Z",
+      "updated_at": "2024-01-15T09:23:11Z"
+    }
+    ```
+
+    Save the `id` value. You will use it to list resources in the next step.
+  </Step>
+  <Step title="List your resources">
+    Now query the workspace to see its resources. New workspaces start empty, so the list will be blank until you add resources later.
 
     ```bash
-    your-cli start
+    curl -G https://api.nexora.io/v1/workspaces/ws_2vPqN9mK3Lx8/resources \
+      -H "Authorization: Bearer $NEXORA_API_KEY" \
+      -d "limit=10"
     ```
+
+    Expected response:
+
+    ```json
+    {
+      "data": [],
+      "next_cursor": null
+    }
+    ```
+
+    The `data` array holds resources such as databases, queues, and storage. The `next_cursor` field supports pagination when there are more results. See the [Pagination guide](/guides/pagination) for details.
+  </Step>
+  <Step title="What's next">
+    You now have a working API integration. Explore the following pages to go deeper.
+
+    <CardGroup cols={3}>
+      <Card title="Authentication" icon="lock" href="/authentication">
+        Rotate keys, handle scopes, and secure your integration.
+      </Card>
+
+      <Card title="Core Concepts" icon="book-open" href="/concepts/workspaces">
+        Understand workspaces, resources, webhooks, and errors.
+      </Card>
+
+      <Card title="First Integration" icon="plug" href="/guides/first-integration">
+        Build a complete integration that provisions resources and listens to events.
+      </Card>
+    </CardGroup>
   </Step>
 </Steps>
-
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
-
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
-</Tip>
