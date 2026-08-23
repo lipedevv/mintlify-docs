@@ -1,60 +1,1089 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "luma",
-  "name": "Nexora",
+  "theme": "aspen",
+  "name": "Nexora Documentation",
+  "description": "Build production Paper plugins with editable JavaScript workspaces, safe automatic reload, GUIs, events, persistence, HTTP, and capability-gated APIs.",
   "colors": {
-    "primary": "#6366F1",
-    "light": "#818CF8",
-    "dark": "#4F46E5"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "primary": "#08756E",
+    "light": "#57E0D2",
+    "dark": "#08756E"
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+  "favicon": "/favicon.svg",
+  "appearance": {
+    "default": "dark"
+  },
+  "fonts": {
+    "family": "Space Grotesk",
+    "heading": {
+      "family": "Space Grotesk",
+      "weight": 700
+    },
+    "body": {
+      "family": "Space Grotesk",
+      "weight": 400
+    }
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "background": {
+    "decoration": "grid",
+    "color": {
+      "light": "#F5F9FA",
+      "dark": "#090D12"
+    }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs",
+    "codeblocks": {
+      "theme": {
+        "light": "github-light",
+        "dark": "github-dark"
+      }
+    }
+  },
+  "banner": {
+    "content": "⚡ Nexora 1.0.0 · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload",
+    "dismissible": true,
+    "type": "info",
+    "color": {
+      "light": "#0E948B",
+      "dark": "#57E0D2"
+    }
+  },
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "🇹🇭 ไทย",
+          "href": "/th/"
+        },
+        {
+          "anchor": "🇸🇰 Slovenčina",
+          "href": "/sk/"
+        },
+        {
+          "anchor": "🇱🇹 Lietuvių",
+          "href": "/lt/"
+        }
+      ]
+    },
+    "languages": [
+      {
+        "language": "en",
+        "default": true,
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "en/index"
+            ]
+          },
+          {
+            "group": "Get started",
+            "pages": [
+              "en/getting-started/installation",
+              "en/getting-started/first-workspace",
+              "en/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Build with JavaScript",
+            "pages": [
+              "en/tutorials/commands-events",
+              "en/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "en/reference/manifest",
+              "en/reference/javascript-api",
+              "en/reference/configuration",
+              "en/reference/http-api"
+            ]
+          },
+          {
+            "group": "Operate",
+            "pages": [
+              "en/security",
+              "en/troubleshooting",
+            "en/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "groups": [
+          {
+            "group": "Resumen",
+            "pages": [
+              "es/index"
+            ]
+          },
+          {
+            "group": "Primeros pasos",
+            "pages": [
+              "es/getting-started/installation",
+              "es/getting-started/first-workspace",
+              "es/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Desarrollar con JavaScript",
+            "pages": [
+              "es/tutorials/commands-events",
+              "es/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referencia",
+            "pages": [
+              "es/reference/manifest",
+              "es/reference/javascript-api",
+              "es/reference/configuration",
+              "es/reference/http-api"
+            ]
+          },
+          {
+            "group": "Operación",
+            "pages": [
+              "es/security",
+              "es/troubleshooting",
+            "es/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ru",
+        "groups": [
+          {
+            "group": "Обзор",
+            "pages": [
+              "ru/index"
+            ]
+          },
+          {
+            "group": "Начало работы",
+            "pages": [
+              "ru/getting-started/installation",
+              "ru/getting-started/first-workspace",
+              "ru/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Разработка на JavaScript",
+            "pages": [
+              "ru/tutorials/commands-events",
+              "ru/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Справочник",
+            "pages": [
+              "ru/reference/manifest",
+              "ru/reference/javascript-api",
+              "ru/reference/configuration",
+              "ru/reference/http-api"
+            ]
+          },
+          {
+            "group": "Эксплуатация",
+            "pages": [
+              "ru/security",
+              "ru/troubleshooting",
+            "ru/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "de",
+        "groups": [
+          {
+            "group": "Übersicht",
+            "pages": [
+              "de/index"
+            ]
+          },
+          {
+            "group": "Erste Schritte",
+            "pages": [
+              "de/getting-started/installation",
+              "de/getting-started/first-workspace",
+              "de/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Mit JavaScript entwickeln",
+            "pages": [
+              "de/tutorials/commands-events",
+              "de/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referenz",
+            "pages": [
+              "de/reference/manifest",
+              "de/reference/javascript-api",
+              "de/reference/configuration",
+              "de/reference/http-api"
+            ]
+          },
+          {
+            "group": "Betrieb",
+            "pages": [
+              "de/security",
+              "de/troubleshooting",
+            "de/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "fr",
+        "groups": [
+          {
+            "group": "Vue d’ensemble",
+            "pages": [
+              "fr/index"
+            ]
+          },
+          {
+            "group": "Bien démarrer",
+            "pages": [
+              "fr/getting-started/installation",
+              "fr/getting-started/first-workspace",
+              "fr/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Développer avec JavaScript",
+            "pages": [
+              "fr/tutorials/commands-events",
+              "fr/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Référence",
+            "pages": [
+              "fr/reference/manifest",
+              "fr/reference/javascript-api",
+              "fr/reference/configuration",
+              "fr/reference/http-api"
+            ]
+          },
+          {
+            "group": "Exploitation",
+            "pages": [
+              "fr/security",
+              "fr/troubleshooting",
+            "fr/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pt-BR",
+        "groups": [
+          {
+            "group": "Visão geral",
+            "pages": [
+              "pt-BR/index"
+            ]
+          },
+          {
+            "group": "Primeiros passos",
+            "pages": [
+              "pt-BR/getting-started/installation",
+              "pt-BR/getting-started/first-workspace",
+              "pt-BR/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Desenvolver com JavaScript",
+            "pages": [
+              "pt-BR/tutorials/commands-events",
+              "pt-BR/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referência",
+            "pages": [
+              "pt-BR/reference/manifest",
+              "pt-BR/reference/javascript-api",
+              "pt-BR/reference/configuration",
+              "pt-BR/reference/http-api"
+            ]
+          },
+          {
+            "group": "Operação",
+            "pages": [
+              "pt-BR/security",
+              "pt-BR/troubleshooting",
+            "pt-BR/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "pl",
+        "groups": [
+          {
+            "group": "Przegląd",
+            "pages": [
+              "pl/index"
+            ]
+          },
+          {
+            "group": "Pierwsze kroki",
+            "pages": [
+              "pl/getting-started/installation",
+              "pl/getting-started/first-workspace",
+              "pl/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Tworzenie w JavaScript",
+            "pages": [
+              "pl/tutorials/commands-events",
+              "pl/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Dokumentacja",
+            "pages": [
+              "pl/reference/manifest",
+              "pl/reference/javascript-api",
+              "pl/reference/configuration",
+              "pl/reference/http-api"
+            ]
+          },
+          {
+            "group": "Utrzymanie",
+            "pages": [
+              "pl/security",
+              "pl/troubleshooting",
+            "pl/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "tr",
+        "groups": [
+          {
+            "group": "Genel Bakış",
+            "pages": [
+              "tr/index"
+            ]
+          },
+          {
+            "group": "Başlangıç",
+            "pages": [
+              "tr/getting-started/installation",
+              "tr/getting-started/first-workspace",
+              "tr/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "JavaScript ile geliştirme",
+            "pages": [
+              "tr/tutorials/commands-events",
+              "tr/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Başvuru",
+            "pages": [
+              "tr/reference/manifest",
+              "tr/reference/javascript-api",
+              "tr/reference/configuration",
+              "tr/reference/http-api"
+            ]
+          },
+          {
+            "group": "İşletim",
+            "pages": [
+              "tr/security",
+              "tr/troubleshooting",
+            "tr/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh-Hans",
+        "groups": [
+          {
+            "group": "概览",
+            "pages": [
+              "zh-CN/index"
+            ]
+          },
+          {
+            "group": "快速开始",
+            "pages": [
+              "zh-CN/getting-started/installation",
+              "zh-CN/getting-started/first-workspace",
+              "zh-CN/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "使用 JavaScript 构建",
+            "pages": [
+              "zh-CN/tutorials/commands-events",
+              "zh-CN/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "参考",
+            "pages": [
+              "zh-CN/reference/manifest",
+              "zh-CN/reference/javascript-api",
+              "zh-CN/reference/configuration",
+              "zh-CN/reference/http-api"
+            ]
+          },
+          {
+            "group": "运维",
+            "pages": [
+              "zh-CN/security",
+              "zh-CN/troubleshooting",
+            "zh-CN/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "id",
+        "groups": [
+          {
+            "group": "Ringkasan",
+            "pages": [
+              "id/index"
+            ]
+          },
+          {
+            "group": "Memulai",
+            "pages": [
+              "id/getting-started/installation",
+              "id/getting-started/first-workspace",
+              "id/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Membangun dengan JavaScript",
+            "pages": [
+              "id/tutorials/commands-events",
+              "id/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referensi",
+            "pages": [
+              "id/reference/manifest",
+              "id/reference/javascript-api",
+              "id/reference/configuration",
+              "id/reference/http-api"
+            ]
+          },
+          {
+            "group": "Operasi",
+            "pages": [
+              "id/security",
+              "id/troubleshooting",
+            "id/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "it",
+        "groups": [
+          {
+            "group": "Panoramica",
+            "pages": [
+              "it/index"
+            ]
+          },
+          {
+            "group": "Primi passi",
+            "pages": [
+              "it/getting-started/installation",
+              "it/getting-started/first-workspace",
+              "it/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Sviluppare con JavaScript",
+            "pages": [
+              "it/tutorials/commands-events",
+              "it/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Riferimento",
+            "pages": [
+              "it/reference/manifest",
+              "it/reference/javascript-api",
+              "it/reference/configuration",
+              "it/reference/http-api"
+            ]
+          },
+          {
+            "group": "Gestione",
+            "pages": [
+              "it/security",
+              "it/troubleshooting",
+            "it/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "vi",
+        "groups": [
+          {
+            "group": "Tổng quan",
+            "pages": [
+              "vi/index"
+            ]
+          },
+          {
+            "group": "Bắt đầu",
+            "pages": [
+              "vi/getting-started/installation",
+              "vi/getting-started/first-workspace",
+              "vi/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Xây dựng với JavaScript",
+            "pages": [
+              "vi/tutorials/commands-events",
+              "vi/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Tham khảo",
+            "pages": [
+              "vi/reference/manifest",
+              "vi/reference/javascript-api",
+              "vi/reference/configuration",
+              "vi/reference/http-api"
+            ]
+          },
+          {
+            "group": "Vận hành",
+            "pages": [
+              "vi/security",
+              "vi/troubleshooting",
+            "vi/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "nl",
+        "groups": [
+          {
+            "group": "Overzicht",
+            "pages": [
+              "nl/index"
+            ]
+          },
+          {
+            "group": "Aan de slag",
+            "pages": [
+              "nl/getting-started/installation",
+              "nl/getting-started/first-workspace",
+              "nl/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Bouwen met JavaScript",
+            "pages": [
+              "nl/tutorials/commands-events",
+              "nl/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referentie",
+            "pages": [
+              "nl/reference/manifest",
+              "nl/reference/javascript-api",
+              "nl/reference/configuration",
+              "nl/reference/http-api"
+            ]
+          },
+          {
+            "group": "Beheer",
+            "pages": [
+              "nl/security",
+              "nl/troubleshooting",
+            "nl/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ko",
+        "groups": [
+          {
+            "group": "개요",
+            "pages": [
+              "ko/index"
+            ]
+          },
+          {
+            "group": "시작하기",
+            "pages": [
+              "ko/getting-started/installation",
+              "ko/getting-started/first-workspace",
+              "ko/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "JavaScript로 개발",
+            "pages": [
+              "ko/tutorials/commands-events",
+              "ko/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "레퍼런스",
+            "pages": [
+              "ko/reference/manifest",
+              "ko/reference/javascript-api",
+              "ko/reference/configuration",
+              "ko/reference/http-api"
+            ]
+          },
+          {
+            "group": "운영",
+            "pages": [
+              "ko/security",
+              "ko/troubleshooting",
+            "ko/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "cs",
+        "groups": [
+          {
+            "group": "Přehled",
+            "pages": [
+              "cs/index"
+            ]
+          },
+          {
+            "group": "Začínáme",
+            "pages": [
+              "cs/getting-started/installation",
+              "cs/getting-started/first-workspace",
+              "cs/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Vývoj v JavaScriptu",
+            "pages": [
+              "cs/tutorials/commands-events",
+              "cs/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "cs/reference/manifest",
+              "cs/reference/javascript-api",
+              "cs/reference/configuration",
+              "cs/reference/http-api"
+            ]
+          },
+          {
+            "group": "Provoz",
+            "pages": [
+              "cs/security",
+              "cs/troubleshooting",
+            "cs/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "hu",
+        "groups": [
+          {
+            "group": "Áttekintés",
+            "pages": [
+              "hu/index"
+            ]
+          },
+          {
+            "group": "Kezdő lépések",
+            "pages": [
+              "hu/getting-started/installation",
+              "hu/getting-started/first-workspace",
+              "hu/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Fejlesztés JavaScripttel",
+            "pages": [
+              "hu/tutorials/commands-events",
+              "hu/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referencia",
+            "pages": [
+              "hu/reference/manifest",
+              "hu/reference/javascript-api",
+              "hu/reference/configuration",
+              "hu/reference/http-api"
+            ]
+          },
+          {
+            "group": "Üzemeltetés",
+            "pages": [
+              "hu/security",
+              "hu/troubleshooting",
+            "hu/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ar",
+        "groups": [
+          {
+            "group": "نظرة عامة",
+            "pages": [
+              "ar/index"
+            ]
+          },
+          {
+            "group": "البدء",
+            "pages": [
+              "ar/getting-started/installation",
+              "ar/getting-started/first-workspace",
+              "ar/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "التطوير باستخدام JavaScript",
+            "pages": [
+              "ar/tutorials/commands-events",
+              "ar/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "المرجع",
+            "pages": [
+              "ar/reference/manifest",
+              "ar/reference/javascript-api",
+              "ar/reference/configuration",
+              "ar/reference/http-api"
+            ]
+          },
+          {
+            "group": "التشغيل",
+            "pages": [
+              "ar/security",
+              "ar/troubleshooting",
+            "ar/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ja",
+        "groups": [
+          {
+            "group": "概要",
+            "pages": [
+              "ja/index"
+            ]
+          },
+          {
+            "group": "はじめに",
+            "pages": [
+              "ja/getting-started/installation",
+              "ja/getting-started/first-workspace",
+              "ja/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "JavaScript で開発",
+            "pages": [
+              "ja/tutorials/commands-events",
+              "ja/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "リファレンス",
+            "pages": [
+              "ja/reference/manifest",
+              "ja/reference/javascript-api",
+              "ja/reference/configuration",
+              "ja/reference/http-api"
+            ]
+          },
+          {
+            "group": "運用",
+            "pages": [
+              "ja/security",
+              "ja/troubleshooting",
+            "ja/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "uk",
+        "groups": [
+          {
+            "group": "Огляд",
+            "pages": [
+              "uk/index"
+            ]
+          },
+          {
+            "group": "Початок роботи",
+            "pages": [
+              "uk/getting-started/installation",
+              "uk/getting-started/first-workspace",
+              "uk/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Розробка на JavaScript",
+            "pages": [
+              "uk/tutorials/commands-events",
+              "uk/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Довідник",
+            "pages": [
+              "uk/reference/manifest",
+              "uk/reference/javascript-api",
+              "uk/reference/configuration",
+              "uk/reference/http-api"
+            ]
+          },
+          {
+            "group": "Експлуатація",
+            "pages": [
+              "uk/security",
+              "uk/troubleshooting",
+            "uk/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "sv",
+        "groups": [
+          {
+            "group": "Översikt",
+            "pages": [
+              "sv/index"
+            ]
+          },
+          {
+            "group": "Kom igång",
+            "pages": [
+              "sv/getting-started/installation",
+              "sv/getting-started/first-workspace",
+              "sv/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Bygg med JavaScript",
+            "pages": [
+              "sv/tutorials/commands-events",
+              "sv/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referens",
+            "pages": [
+              "sv/reference/manifest",
+              "sv/reference/javascript-api",
+              "sv/reference/configuration",
+              "sv/reference/http-api"
+            ]
+          },
+          {
+            "group": "Drift",
+            "pages": [
+              "sv/security",
+              "sv/troubleshooting",
+            "sv/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "da",
+        "groups": [
+          {
+            "group": "Oversigt",
+            "pages": [
+              "da/index"
+            ]
+          },
+          {
+            "group": "Kom godt i gang",
+            "pages": [
+              "da/getting-started/installation",
+              "da/getting-started/first-workspace",
+              "da/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Byg med JavaScript",
+            "pages": [
+              "da/tutorials/commands-events",
+              "da/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Reference",
+            "pages": [
+              "da/reference/manifest",
+              "da/reference/javascript-api",
+              "da/reference/configuration",
+              "da/reference/http-api"
+            ]
+          },
+          {
+            "group": "Drift",
+            "pages": [
+              "da/security",
+              "da/troubleshooting",
+              "da/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ro",
+        "groups": [
+          {
+            "group": "Prezentare generală",
+            "pages": [
+              "ro/index"
+            ]
+          },
+          {
+            "group": "Primii pași",
+            "pages": [
+              "ro/getting-started/installation",
+              "ro/getting-started/first-workspace",
+              "ro/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "Dezvoltare cu JavaScript",
+            "pages": [
+              "ro/tutorials/commands-events",
+              "ro/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "Referință",
+            "pages": [
+              "ro/reference/manifest",
+              "ro/reference/javascript-api",
+              "ro/reference/configuration",
+              "ro/reference/http-api"
+            ]
+          },
+          {
+            "group": "Operare",
+            "pages": [
+              "ro/security",
+              "ro/troubleshooting",
+            "ro/commercial-license"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "he",
+        "groups": [
+          {
+            "group": "סקירה כללית",
+            "pages": [
+              "he/index"
+            ]
+          },
+          {
+            "group": "תחילת העבודה",
+            "pages": [
+              "he/getting-started/installation",
+              "he/getting-started/first-workspace",
+              "he/guides/automatic-reload"
+            ]
+          },
+          {
+            "group": "פיתוח עם JavaScript",
+            "pages": [
+              "he/tutorials/commands-events",
+              "he/tutorials/gui-shop"
+            ]
+          },
+          {
+            "group": "עיון",
+            "pages": [
+              "he/reference/manifest",
+              "he/reference/javascript-api",
+              "he/reference/configuration",
+              "he/reference/http-api"
+            ]
+          },
+          {
+            "group": "תפעול",
+            "pages": [
+              "he/security",
+              "he/troubleshooting",
+            "he/commercial-license"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@nexora.io"
+        "type": "github",
+        "href": "https://github.com/lipedevv/nexora-docs"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.nexora.io"
-    }
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/nexora",
-      "github": "https://github.com/nexora",
-      "linkedin": "https://linkedin.com/company/nexora"
+      "github": "https://github.com/lipedevv/nexora-docs"
     }
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "variables": {
+    "nexoraVersion": "1.0.0",
+    "paperVersion": "1.21.8",
+    "javaVersion": "21+"
   }
 }

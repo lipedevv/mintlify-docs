@@ -1,55 +1,32 @@
-# Mintlify Starter Kit
+# Nexora Documentation
 
-Use the starter kit to get your docs deployed and ready to customize.
+Official multilingual documentation for Nexora, built with [Mintlify](https://www.mintlify.com/).
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+## Local preview
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
-
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
-
-## AI-assisted writing
-
-Set up your AI coding tool to work with Mintlify:
+Requires Node.js 20.17 or newer and the Mintlify CLI.
 
 ```bash
-npx skills add https://mintlify.com/docs
+npm install
+npm run dev
 ```
 
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
+The preview opens at `http://localhost:3000`.
 
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+## Quality checks
 
-## Development
-
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
-
-```
-npm i -g mint
+```bash
+npm run validate
+npm run check:links
+npm run check:a11y
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+## Publishing
 
-```
-mint dev
-```
+Connect this repository and the `main` branch in the Mintlify dashboard. After the Mintlify GitHub App is installed for `lipedevv/nexora-docs`, every push to `main` triggers a production deployment.
 
-View your local preview at `http://localhost:3000`.
+The site uses one `docs.json`, one navigation tree, and localized content for 26 languages. Mintlify's native selector supports 23 of them. Thai, Slovak, and Lithuanian remain available as global navigation links because Mintlify does not currently list their language codes as supported selector values.
 
-## Publishing changes
+## License
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+Nexora may be used for commercial and personal projects. Resale and redistribution are prohibited. The authoritative terms are in each localized `commercial-license.md` page.
