@@ -1,6 +1,6 @@
 ---
 title: "Kurulum"
-description: "Desteklenen hedef: Paper 1.21.8 ve Java 21 veya üzeri. VS Code yalnızca Nexora Connect canlı durum ve GUI önizlemesi için gerekir."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code yalnızca Nexora Connect canlı durum ve GUI önizlemesi için gerekir."
 icon: package
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "התקנה"
-description: "יעד נתמך: Paper 1.21.8 ו-Java 21 ומעלה. VS Code נדרש רק למצב חי או תצוגה מקדימה של GUI דרך Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code נדרש רק למצב חי או תצוגה מקדימה של GUI דרך Nexora Connect."
 icon: package
 ---
 

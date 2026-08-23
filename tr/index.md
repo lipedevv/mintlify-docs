@@ -4,8 +4,8 @@ description: "Nexora, Paper sunucuları için bir JavaScript çalışma ortamıd
 icon: house
 ---
 
-> **Nexora 1.0.0** · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload
+> **Nexora 1.0.0** · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload
 
-Desteklenen hedef: Paper 1.21.8 ve Java 21 veya üzeri. VS Code yalnızca Nexora Connect canlı durum ve GUI önizlemesi için gerekir.
+Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code yalnızca Nexora Connect canlı durum ve GUI önizlemesi için gerekir.
 
 Yerelleştirilmiş belgeler arasında geçiş yapmak için dil seçiciyi kullanın. API tanımlayıcıları her dilde tam JavaScript biçimini korur.

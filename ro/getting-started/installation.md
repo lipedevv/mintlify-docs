@@ -1,6 +1,6 @@
 ---
 title: "Instalare"
-description: "Țintă suportată: Paper 1.21.8 și Java 21 sau mai nou. VS Code este necesar doar pentru starea live sau previzualizarea GUI din Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code este necesar doar pentru starea live sau previzualizarea GUI din Nexora Connect."
 icon: package
 ---
 

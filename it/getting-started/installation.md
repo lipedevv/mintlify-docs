@@ -1,6 +1,6 @@
 ---
 title: "Installazione"
-description: "Target supportato: Paper 1.21.8 e Java 21 o superiore. VS Code serve solo per stato live e anteprima GUI di Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code serve solo per stato live e anteprima GUI di Nexora Connect."
 icon: package
 ---
 

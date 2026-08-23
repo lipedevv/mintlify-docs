@@ -4,8 +4,8 @@ description: "Nexora is a JavaScript runtime for Paper servers. Workspaces run d
 icon: house
 ---
 
-> **Nexora 1.0.0** · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload
+> **Nexora 1.0.0** · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload
 
-Supported release target: Paper 1.21.8 and Java 21 or newer. Nexora Connect requires VS Code only when live status or GUI preview is wanted.
+Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code only when live status or GUI preview is wanted.
 
 Use the language selector to switch between localized documentation. API identifiers remain in their exact JavaScript form in every language.

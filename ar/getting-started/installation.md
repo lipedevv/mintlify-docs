@@ -1,6 +1,6 @@
 ---
 title: "التثبيت"
-description: "الهدف المدعوم: Paper 1.21.8 وJava 21 أو أحدث. يلزم VS Code فقط للحالة المباشرة أو معاينة GUI عبر Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code فقط للحالة المباشرة أو معاينة GUI عبر Nexora Connect."
 icon: package
 ---
 

@@ -4,9 +4,9 @@
   "name": "Nexora Documentation",
   "description": "Build production Paper plugins with editable JavaScript workspaces, safe automatic reload, GUIs, events, persistence, HTTP, and capability-gated APIs.",
   "colors": {
-    "primary": "#08756E",
-    "light": "#57E0D2",
-    "dark": "#08756E"
+    "primary": "#087A5F",
+    "light": "#55D799",
+    "dark": "#0D9373"
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -47,31 +47,15 @@
     }
   },
   "banner": {
-    "content": "⚡ Nexora 1.0.0 · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload",
+    "content": "⚡ Nexora 1.0.0 · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload",
     "dismissible": true,
     "type": "info",
     "color": {
-      "light": "#0E948B",
-      "dark": "#57E0D2"
+      "light": "#0D9373",
+      "dark": "#0D9373"
     }
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "🇹🇭 ไทย",
-          "href": "/th/"
-        },
-        {
-          "anchor": "🇸🇰 Slovenčina",
-          "href": "/sk/"
-        },
-        {
-          "anchor": "🇱🇹 Lietuvių",
-          "href": "/lt/"
-        }
-      ]
-    },
     "languages": [
       {
         "language": "en",
@@ -1068,6 +1052,11 @@
   "navbar": {
     "links": [
       {
+        "label": "🌐 +3 idiomas",
+        "href": "/languages",
+        "icon": "languages"
+      },
+      {
         "type": "github",
         "href": "https://github.com/lipedevv/nexora-docs"
       }
@@ -1083,7 +1072,7 @@
   },
   "variables": {
     "nexoraVersion": "1.0.0",
-    "paperVersion": "1.21.8",
-    "javaVersion": "21+"
+    "paperVersion": "1.20.6–26.2",
+    "javaVersion": "21/25"
   }
 }

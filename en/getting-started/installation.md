@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-description: "Supported release target: Paper 1.21.8 and Java 21 or newer. Nexora Connect requires VS Code only when live status or GUI preview is wanted."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code only when live status or GUI preview is wanted."
 icon: package
 ---
 

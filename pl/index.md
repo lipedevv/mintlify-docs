@@ -4,8 +4,8 @@ description: "Nexora to środowisko JavaScript dla serwerów Paper. Workspace dz
 icon: house
 ---
 
-> **Nexora 1.0.0** · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload
+> **Nexora 1.0.0** · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload
 
-Wspierany cel: Paper 1.21.8 oraz Java 21 lub nowsza. VS Code jest potrzebny tylko do statusu na żywo i podglądu GUI w Nexora Connect.
+Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code jest potrzebny tylko do statusu na żywo i podglądu GUI w Nexora Connect.
 
 Użyj selektora języka, aby przełączać się między zlokalizowanymi wersjami dokumentacji. Identyfikatory API zachowują dokładną formę JavaScript w każdym języku.

@@ -1,6 +1,6 @@
 ---
 title: "Instalação"
-description: "Alvo suportado: Paper 1.21.8 e Java 21 ou superior. O VS Code só é necessário para status ao vivo e prévia de GUI pelo Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code só é necessário para status ao vivo e prévia de GUI pelo Nexora Connect."
 icon: package
 ---
 

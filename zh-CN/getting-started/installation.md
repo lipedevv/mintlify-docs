@@ -1,6 +1,6 @@
 ---
 title: "安装"
-description: "支持目标：Paper 1.21.8 与 Java 21 或更高版本。只有使用 Nexora Connect 的实时状态或 GUI 预览时才需要 VS Code。"
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code。"
 icon: package
 ---
 

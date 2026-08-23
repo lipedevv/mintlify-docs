@@ -1,6 +1,6 @@
 ---
 title: "Inštalácia"
-description: "Podporovaný cieľ: Paper 1.21.8 a Java 21 alebo novšia. VS Code je potrebný len pre živý stav alebo náhľad GUI v Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code je potrebný len pre živý stav alebo náhľad GUI v Nexora Connect."
 icon: package
 ---
 

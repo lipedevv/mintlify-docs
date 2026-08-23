@@ -1,6 +1,6 @@
 ---
 title: "Installatie"
-description: "Ondersteund doel: Paper 1.21.8 en Java 21 of nieuwer. VS Code is alleen nodig voor live status of GUI-preview met Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code is alleen nodig voor live status of GUI-preview met Nexora Connect."
 icon: package
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "설치"
-description: "지원 대상은 Paper 1.21.8과 Java 21 이상입니다. VS Code는 Nexora Connect의 실시간 상태 또는 GUI 미리보기에만 필요합니다."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code는 Nexora Connect의 실시간 상태 또는 GUI 미리보기에만 필요합니다."
 icon: package
 ---
 

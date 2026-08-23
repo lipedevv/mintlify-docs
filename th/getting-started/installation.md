@@ -1,6 +1,6 @@
 ---
 title: "การติดตั้ง"
-description: "เป้าหมายที่รองรับคือ Paper 1.21.8 และ Java 21 ขึ้นไป ใช้ VS Code เฉพาะเมื่อต้องการสถานะสดหรือดูตัวอย่าง GUI ผ่าน Nexora Connect"
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code เฉพาะเมื่อต้องการสถานะสดหรือดูตัวอย่าง GUI ผ่าน Nexora Connect"
 icon: package
 ---
 

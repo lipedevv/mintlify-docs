@@ -1,6 +1,6 @@
 ---
 title: "Instalasi"
-description: "Target yang didukung: Paper 1.21.8 dan Java 21 atau lebih baru. VS Code hanya diperlukan untuk status langsung atau pratinjau GUI Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code hanya diperlukan untuk status langsung atau pratinjau GUI Nexora Connect."
 icon: package
 ---
 

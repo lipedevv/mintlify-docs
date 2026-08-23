@@ -4,8 +4,8 @@ description: "Nexora는 Paper 서버용 JavaScript 런타임입니다. Workspace
 icon: house
 ---
 
-> **Nexora 1.0.0** · Paper 1.21.8 · Java 21+ · JavaScript · automatic safe reload
+> **Nexora 1.0.0** · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload
 
-지원 대상은 Paper 1.21.8과 Java 21 이상입니다. VS Code는 Nexora Connect의 실시간 상태 또는 GUI 미리보기에만 필요합니다.
+Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code는 Nexora Connect의 실시간 상태 또는 GUI 미리보기에만 필요합니다.
 
 언어 선택기를 사용하여 현지화된 문서 사이를 전환하세요. API 식별자는 모든 언어에서 정확한 JavaScript 형식을 유지합니다.

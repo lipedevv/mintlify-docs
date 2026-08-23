@@ -1,6 +1,6 @@
 ---
 title: "Cài đặt"
-description: "Mục tiêu được hỗ trợ: Paper 1.21.8 và Java 21 trở lên. VS Code chỉ cần khi dùng trạng thái trực tiếp hoặc xem trước GUI của Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code chỉ cần khi dùng trạng thái trực tiếp hoặc xem trước GUI của Nexora Connect."
 icon: package
 ---
 

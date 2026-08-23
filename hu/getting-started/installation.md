@@ -1,6 +1,6 @@
 ---
 title: "Telepítés"
-description: "Támogatott cél: Paper 1.21.8 és Java 21 vagy újabb. VS Code csak a Nexora Connect élő állapotához vagy GUI előnézetéhez kell."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code csak a Nexora Connect élő állapotához vagy GUI előnézetéhez kell."
 icon: package
 ---
 

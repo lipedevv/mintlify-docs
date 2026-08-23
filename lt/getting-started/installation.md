@@ -1,6 +1,6 @@
 ---
 title: "Diegimas"
-description: "Palaikomas tikslas: Paper 1.21.8 ir Java 21 ar naujesnė. VS Code reikia tik Nexora Connect gyvai būsenai arba GUI peržiūrai."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code reikia tik Nexora Connect gyvai būsenai arba GUI peržiūrai."
 icon: package
 ---
 

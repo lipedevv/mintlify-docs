@@ -1,6 +1,6 @@
 ---
 title: "Installation"
-description: "Cible prise en charge : Paper 1.21.8 et Java 21 ou plus récent. VS Code n’est requis que pour l’état en direct et l’aperçu GUI de Nexora Connect."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code n’est requis que pour l’état en direct et l’aperçu GUI de Nexora Connect."
 icon: package
 ---
 

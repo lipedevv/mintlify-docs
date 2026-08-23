@@ -1,6 +1,6 @@
 ---
 title: "Instalación"
-description: "Objetivo compatible: Paper 1.21.8 y Java 21 o superior. Nexora Connect necesita VS Code solo para estado en vivo o vista previa de GUI."
+description: "Paper 1.20.6–26.2 · Java 21 (Paper 1.20.6–1.21.11) · Java 25 (Paper 26.x). VS Code solo para estado en vivo o vista previa de GUI."
 icon: package
 ---
 
