@@ -46,6 +46,16 @@
       }
     }
   },
+  "markdown": {
+    "instructions": [
+      "Nexora workspaces use JavaScript (.js or .mjs), never TypeScript, Node.js packages, a build step, or manual deployment.",
+      "Create workspaces under plugins/NexoraEngine/workspaces/<workspace-id>; the directory name and workspace.json id must match.",
+      "Use only APIs present in the Nexora JavaScript API reference. Never invent methods, event names, capabilities, or Native Mode access.",
+      "Prefer Safe Mode. Use Native Mode only when the user explicitly needs Paper/Bukkit access and declare the exact native capability in workspace.json.",
+      "For economy, shops, inventories, and persistence, preserve atomicity: validate first, use database transactions, and compensate or refund when delivery fails.",
+      "Target Paper 1.20.6 through 26.2. Use Java 21 for Paper 1.20.6–1.21.11 and Java 25 for Paper 26.x."
+    ]
+  },
   "banner": {
     "content": "⚡ Nexora 1.0.0 · Paper 1.20.6–26.2 · Java 21/25 · JavaScript · automatic safe reload",
     "dismissible": true,
@@ -1051,6 +1061,11 @@
   },
   "navbar": {
     "links": [
+      {
+        "label": "🤖 AI",
+        "href": "/ai-development",
+        "icon": "bot"
+      },
       {
         "label": "🌐 +3 idiomas",
         "href": "/languages",
